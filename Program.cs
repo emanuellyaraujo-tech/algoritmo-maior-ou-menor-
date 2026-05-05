@@ -5,10 +5,10 @@ namespace maioroumenor
     {
         static void Main()
         {
-            Console.Write("Digite o primeiro numero: ");
+            Console.Write("Informe o primeiro valor: ");
             int num1 = int.Parse(Console.ReadLine());
             Console.WriteLine(num1);
-            Console.Write("Digite o segundo numero: ");
+            Console.Write("Informe o segundo valor: ");
             int num2 = int.Parse(Console.ReadLine());
             Console.WriteLine(num2);
             if (num1 > num2)
